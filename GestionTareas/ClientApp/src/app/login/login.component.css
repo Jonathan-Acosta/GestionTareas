@@ -1,0 +1,8 @@
+:host >>> .jumbotron {
+  height: 50em !important;
+  padding: 15% 30% 0 30% !important;
+}
+:host >>> .btn-primary {
+  width: 300px !important;
+  margin: 0 20% !important;
+}

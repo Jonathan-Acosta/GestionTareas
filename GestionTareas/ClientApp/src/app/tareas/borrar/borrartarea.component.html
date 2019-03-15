@@ -1,0 +1,32 @@
+﻿<div class="container-fluid">
+    <div class="cuerpo" style="padding-top:7%">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="card" style="width: 100%;border: 1px solid lightgray; padding:3% 3%;background-color: whitesmoke;">
+                    <div class="card-title">
+                        <h5>Borrar Tarea</h5>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="descripcion">Descripción</label>
+                                <textarea class="form-control" name="descripcion" id="descripcion" [(ngModel)]="tarea.descripcion" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="fechavencimiento">Fecha Vencimiento</label>
+                                <input id="fechavencimiento" name="fechavencimiento" type="date" [(ngModel)]="tarea.fechaVencimiento">
+                            </div>
+                            <div class="form-group">
+                                <p-radioButton name="estado" value="Pendiente" label="Pendiente" [(ngModel)]="selectedValue"></p-radioButton>
+                                <p-radioButton name="estado" value="Finalizado" label="Finalizado" [(ngModel)]="selectedValue"></p-radioButton>
+                            </div>
+                            <button type="button" name="borrar" class="btn btn-primary" (click)="borrar()">Borrar</button>
+                            <button type="button" name="cancelar" class="btn btn-primary" (click)="cancelar()">Cancelar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

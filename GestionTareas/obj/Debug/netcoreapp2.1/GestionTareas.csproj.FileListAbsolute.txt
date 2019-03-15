@@ -1,0 +1,48 @@
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.deps.json
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.runtimeconfig.json
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.runtimeconfig.dev.json
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.dll
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.pdb
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.Views.dll
+C:\Repositorios\GestionTareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.Views.pdb
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csprojAssemblyReference.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csproj.CoreCompileInputs.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorAssemblyInfo.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorAssemblyInfo.cs
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.AssemblyInfoInputs.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.AssemblyInfo.cs
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.TagHelpers.input.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.TagHelpers.output.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorCoreGenerate.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorTargetAssemblyInfo.cache
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorTargetAssemblyInfo.cs
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.Views.pdb
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.dll
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.pdb
+C:\Repositorios\GestionTareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csproj.CopyComplete
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.deps.json
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.runtimeconfig.json
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.runtimeconfig.dev.json
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.dll
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.pdb
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.Views.dll
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\bin\Debug\netcoreapp2.1\GestionTareas.Views.pdb
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csprojAssemblyReference.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csproj.CoreCompileInputs.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorAssemblyInfo.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorAssemblyInfo.cs
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.AssemblyInfoInputs.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.AssemblyInfo.cs
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.TagHelpers.input.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.TagHelpers.output.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorCoreGenerate.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorTargetAssemblyInfo.cache
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.RazorTargetAssemblyInfo.cs
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.Views.pdb
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.dll
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.pdb
+C:\Users\Sergio Murillo\Downloads\Gestiona Tareas sin modulos\Gestiona Tareas\GestionTareas\obj\Debug\netcoreapp2.1\GestionTareas.csproj.CopyComplete

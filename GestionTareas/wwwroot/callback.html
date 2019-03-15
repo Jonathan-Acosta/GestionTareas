@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        var url = window.location.href;
+        console.log("Url actual: ", url);
+        var posParameters = url.indexOf("#");
+        var urlredirect = "/buscartareas?" + url.substr(posParameters+1);
+        window.location.href = urlredirect;
+    </script>
+</body>
+</html>

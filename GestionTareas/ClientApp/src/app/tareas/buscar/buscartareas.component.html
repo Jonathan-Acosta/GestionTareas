@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="row" style="border: 1px solid lightgray;">
+    <div class="col-sm-2">
+      <button type="button" class="btn btn-primary btn-lg" (click)="crear()">Nueva Tarea</button>
+    </div>
+    <div class="col-sm-5">
+      <p-dropdown [options]="filtrosTareas" [(ngModel)]="filtroSeleccionado" [style]="{'width':'100%', 'font-size': '1.23em', 'border':'1px solid lightgray','margin-top':'1%'}" placeholder="Filtrar Tareas"></p-dropdown>
+    </div>
+    <div class="col-sm-3">
+      <div class="input-group" style="display: -webkit-inline-box;">
+        <input type="text" class="form-control" id="descripcion" [(ngModel)]="descripcionTarea" style="margin-top: 2%;" placeholder="Descripción">
+        <div class="input-group-append" style="margin-top: 2%;">
+          <button class="btn btn-primary" type="button" id="button-addon2" name="buscar" (click)="buscar()">Buscar</button>
+        </div>
+      </div> 
+    </div>
+    <div class="col-sm-2">
+      <button type="button" class="btn btn-primary btn-lg">Cerrar Sesión</button>
+    </div>
+  </div>
+  <div class="cuerpo" style="padding-top:7%">
+    <div class="row" *ngFor="let tarea of tareas">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="card" style="width: 100%;border: 1px solid lightgray; padding:3% 3%;background-color: whitesmoke;">
+          <div class="card-body">
+              <h5 class="card-title" style="padding-bottom: 5%;">Descripción: {{tarea.descripcion}}</h5>
+              <p class="card-text">Fecha de vencimiento: {{tarea.fechaVencimiento}}</p>
+              <p class="card-text">Finalizada: {{tarea.finalizada}}</p>
+            <button type="button" name="actualizar" class="btn btn-primary" (click)="actualizar(tarea)">Actualizar</button>
+            <button type="button" name="borrar" class="btn btn-primary" (click)="borrar(tarea)">Borrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
