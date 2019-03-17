@@ -31,7 +31,8 @@ export class ActualizarTareaComponent implements OnInit {
                 this.actualizartarea.descripcion = params['descripcion'];
                 this.actualizartarea.fechaVencimiento = new Date(params['fechaVencimiento']).toISOString().split('T')[0];
                 this.actualizartarea.finalizada = params['finalizada'];
-                this.selectedValue = this.actualizartarea.finalizada ? "Finalizado" : "Pendiente";
+                this.selectedValue = this.actualizartarea.finalizada==true ? "Finalizado" : "Pendiente";
+                console.log("Opcion seleccionada: ", this.selectedValue);
                 console.log("Actualizar tarea: ", this.actualizartarea);
             });
     }
@@ -43,6 +44,10 @@ export class ActualizarTareaComponent implements OnInit {
         } else {
             alert("Error al actualizar tarea");
         }
+    }
+
+    clickOnRadio(): void {
+        console.log("opcion seleccionada: ", this.selectedValue);
     }
 
     cancelar(): void {

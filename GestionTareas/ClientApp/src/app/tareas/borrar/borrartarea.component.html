@@ -17,8 +17,8 @@
                                 <input id="fechavencimiento" name="fechavencimiento" type="date" [(ngModel)]="tarea.fechaVencimiento">
                             </div>
                             <div class="form-group">
-                                <p-radioButton name="estado" value="Pendiente" label="Pendiente" [(ngModel)]="selectedValue"></p-radioButton>
-                                <p-radioButton name="estado" value="Finalizado" label="Finalizado" [(ngModel)]="selectedValue"></p-radioButton>
+                                <p-radioButton name="estado" value="Pendiente" label="Pendiente" [(ngModel)]="selectedValue" (click)="clickOnRadio()"></p-radioButton>
+                                <p-radioButton name="estado" value="Finalizado" label="Finalizado" [(ngModel)]="selectedValue" (click)="clickOnRadio()"></p-radioButton>
                             </div>
                             <button type="button" name="borrar" class="btn btn-primary" (click)="borrar()">Borrar</button>
                             <button type="button" name="cancelar" class="btn btn-primary" (click)="cancelar()">Cancelar</button>

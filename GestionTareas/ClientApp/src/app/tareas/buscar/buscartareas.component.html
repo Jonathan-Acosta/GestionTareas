@@ -15,7 +15,7 @@
       </div> 
     </div>
     <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-lg">Cerrar Sesión</button>
+      <button type="button" class="btn btn-primary btn-lg" name="cerrar" (click)="cerrarsesion()">Cerrar Sesión</button>
     </div>
   </div>
   <div class="cuerpo" style="padding-top:7%">
@@ -25,7 +25,7 @@
           <div class="card-body">
               <h5 class="card-title" style="padding-bottom: 5%;">Descripción: {{tarea.descripcion}}</h5>
               <p class="card-text">Fecha de vencimiento: {{tarea.fechaVencimiento}}</p>
-              <p class="card-text">Finalizada: {{tarea.finalizada}}</p>
+              <p class="card-text">Finalizada: {{tarea.finalizada==false ? 'Pendiente' : 'Finalizada'}}</p>
             <button type="button" name="actualizar" class="btn btn-primary" (click)="actualizar(tarea)">Actualizar</button>
             <button type="button" name="borrar" class="btn btn-primary" (click)="borrar(tarea)">Borrar</button>
           </div>

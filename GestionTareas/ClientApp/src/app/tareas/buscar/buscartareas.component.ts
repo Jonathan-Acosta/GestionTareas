@@ -48,10 +48,16 @@ export class BuscarTareasComponent implements OnInit {
         this.router.navigate(['/creartarea']);
     }
 
+    cerrarsesion(): void {
+        localStorage.removeItem("usuario");
+        this.authn.logout();
+    }
+
     buscar(): void {
         console.log("Buscando");
         var parametros = new Parametros();
         parametros.descripcion = this.descripcionTarea;
+        /*
         switch (this.filtroSeleccionado) {
             case "Todo":
                 this.tareasService.getAllTareasApi().then(tareas => { console.log(tareas); this.tareas = tareas as Tarea[] });
@@ -67,8 +73,10 @@ export class BuscarTareasComponent implements OnInit {
             default:
                 this.tareasService.getAllTareasApi().then(tareas => { console.log(tareas); this.tareas = tareas as Tarea[] });
                 break;
-
         }
+        */
+        parametros.finalizada = (this.filtroSeleccionado == "Finalizado") ? true : (this.filtroSeleccionado == "Pendientes") ? false : null;
+        this.tareasService.getTareasConParametrosApi(parametros).then(tareas => { console.log(tareas); this.tareas = tareas as Tarea[] });
     }
 
 }

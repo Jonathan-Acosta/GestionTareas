@@ -33,7 +33,7 @@ export class BorrarTareaComponent implements OnInit {
                 this.tarea.descripcion = params['descripcion'];
                 this.tarea.fechaVencimiento = new Date(params['fechaVencimiento']).toISOString().split('T')[0];
                 this.tarea.finalizada = params['finalizada'];
-                this.selectedValue = this.tarea.finalizada ? "Finalizado" : "Pendiente";
+                this.selectedValue = this.tarea.finalizada==true ? "Finalizado" : "Pendiente";
                 console.log("Borrar tarea: ", this.tarea);
             });
     }
@@ -45,6 +45,10 @@ export class BorrarTareaComponent implements OnInit {
         } else {
             alert("Error al borrar tarea");
         }
+    }
+
+    clickOnRadio(): void {
+        console.log("opcion seleccionada: ", this.selectedValue);
     }
 
     cancelar(): void {

@@ -259,9 +259,10 @@ export class TareasService{
 
     private objectToQuerystring(obj): string {
         let contador = 0;
+        console.log("Parametros antes de conversion: ",obj);
         return Object.keys(obj).reduce( (str, key, i) => {
             var delimiter, val = encodeURIComponent(obj[key]);
-            if (obj[key]) {
+            if (val != '') {
                 delimiter = (str == undefined) ? '?' : '&';
                 key = encodeURIComponent(key);
                 return [str, delimiter, key, '=', val].join('');

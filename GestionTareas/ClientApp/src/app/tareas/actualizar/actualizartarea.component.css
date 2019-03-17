@@ -1,2 +1,7 @@
-﻿body {
+﻿:host >>> .ui-radiobutton-box {
+    background-color: white;
+}
+
+:host >>> .ui-state-active {
+    background-color: gray;
 }
